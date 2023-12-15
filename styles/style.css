@@ -146,7 +146,7 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: "";
+  content: '';
   display: inline-block;
   background: #fff;
   width: 100%;
@@ -194,6 +194,7 @@ ol {
 }
 
 .content__details {
+  align-items: start;
   height: 100%;
   width: 100%;
 }
@@ -236,6 +237,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
+  width: 193px;
   height: 103px;
   object-fit: cover;
   object-position: center;
@@ -287,8 +289,4 @@ ol {
 
 .content__card-link:focus-visible{
   outline: 1px solid #fff;
-}
-
-.preloader-template {
-  position: absolute;
 }
