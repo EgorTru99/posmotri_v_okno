@@ -56,6 +56,10 @@ ol {
   align-items: end;
 }
 
+.result{
+  margin-top: 76px;
+}
+
 .result__video-container {
   width: 711px;
   height: 386px;
@@ -198,6 +202,7 @@ ol {
 .content__details {
   height: 100%;
   width: 100%;
+  align-self: flex-start;
 }
 
 .title {
